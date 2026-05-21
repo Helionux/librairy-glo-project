@@ -8,10 +8,16 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 
 | Nom & Prénom | Rôle / Responsabilité | GitHub | Matricule |
 | :--- | :--- | :--- | :--- |
-| **Deoule-Allah MAdjitoloum Heliodore** | Chef de projet équipe développement  | [@Helionux](https://github.com/helionux) | 23A366FS |
-| **Dingammadji Barthélémy** | Concepteur UML / Développeur Backend | [@Pseudo2](https://github.com/...) | 24A816FS |
-| **Nom Prénom 3** | Développeur Frontend / Testeur | [@Pseudo3](https://github.com/...) |
-| **Nom Prénom 4** | Administrateur Base de Données | [@Pseudo4](https://github.com/...) |
+| **Deoule-Allah Madjitoloum Heliodore** | Chef de projet • Développeur Fullstack | [@Helionux](https://github.com/helionux) | 23A366FS |
+| **Dingammadji Barthélémy** | ----------- | [@Pseudo2](https://github.com/...) | 24A816FS |
+| **Masrabé Naradé Urbain** | --------- | [@Pseudo3](https://github.com/...) | 24A842FS |
+| **SORE HAMADOU BRONDON** | ------------- | [@Pseudo4](https://github.com/...) | 24B207FS |
+| **Namoné Eben-ezer** | --------------- | [@Pseudo5](https://github.com/...) | 24A982FS |
+| **KOUMLA MAHAMAT** | -------------- | [@Pseudo6](https://github.com/...) | 23A245FS |
+| **TOGLE-ALLAH BÉNÉDICTION** | -------------- | [@Pseudo7](https://github.com/...) | 23A229FS |
+| **DJEKORNONMADJI DAINTAR THALES** | ------------------- | [@Pseudo8](https://github.com/...) | 24A587FS |
+| **Djegolbe Djimassal Rodrigue** | ---------------------- | [@Pseudo9](https://github.com/...) | 23B451FS |
+| **NGANJOUONG PATRIK** | ------------ | [@Pseudo10](https://github.com/...) | 24B135FS |
 
 ---
 
@@ -26,9 +32,10 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 
 ## 🛠️ Architecture et Conception (UML)
 
-Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par des diagrammes UML. 
+Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par des diagrammes UML.
 
-### Principales Classes Identifiées :
+### Principales Classes Identifiées
+
 * `Document` (Classe abstraite) : Spécifiée en `LivrePhysique`, `DocumentNumerique`, `Video`, `Audio`.
 * `Utilisateur` (Classe abstraite) : Spécifiée selon les rôles (`Lecteur`, `Administrateur`, `Redacteur`).
 * `Bibliotheque` : Gère son propre catalogue et ses relations avec les `BibliothequePartenaire`.
