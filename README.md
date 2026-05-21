@@ -6,10 +6,10 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 
 ## 👥 Membres de l'équipe
 
-| Nom & Prénom | Rôle / Responsabilité | GitHub |
-| :--- | :--- | :--- |
-| **Nom Prénom 1** | Chef de projet / Développeur Full-Stack | [@Pseudo1](https://github.com/...) |
-| **Nom Prénom 2** | Concepteur UML / Développeur Backend | [@Pseudo2](https://github.com/...) |
+| Nom & Prénom | Rôle / Responsabilité | GitHub | Matricule |
+| :--- | :--- | :--- | :--- |
+| **Deoule-Allah MAdjitoloum Heliodore** | Chef de projet équipe développement  | [@Helionux](https://github.com/helionux) | 23A366FS |
+| **Dingammadji Barthélémy** | Concepteur UML / Développeur Backend | [@Pseudo2](https://github.com/...) | 24A816FS |
 | **Nom Prénom 3** | Développeur Frontend / Testeur | [@Pseudo3](https://github.com/...) |
 | **Nom Prénom 4** | Administrateur Base de Données | [@Pseudo4](https://github.com/...) |
 
