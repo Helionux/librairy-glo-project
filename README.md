@@ -5,10 +5,13 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 ---
 
 ## 👥 Membres de l'équipe
-*Ajoutez la liste des membres du projet ci-dessous :*
-* **Nom Prénom** - [@PseudoGitHub](https://github.com/...) - Rôle / Responsabilité
-* **Nom Prénom** - [@PseudoGitHub](https://github.com/...) - Rôle / Responsabilité
-* **Nom Prénom** - [@PseudoGitHub](https://github.com/...) - Rôle / Responsabilité
+
+| Nom & Prénom | Rôle / Responsabilité | GitHub |
+| :--- | :--- | :--- |
+| **Nom Prénom 1** | Chef de projet / Développeur Full-Stack | [@Pseudo1](https://github.com/...) |
+| **Nom Prénom 2** | Concepteur UML / Développeur Backend | [@Pseudo2](https://github.com/...) |
+| **Nom Prénom 3** | Développeur Frontend / Testeur | [@Pseudo3](https://github.com/...) |
+| **Nom Prénom 4** | Administrateur Base de Données | [@Pseudo4](https://github.com/...) |
 
 ---
 
@@ -39,7 +42,8 @@ Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par
 
 * **Langage :** Java (Version 17 ou supérieure)
 * **Conception :** UML 2.0
-* **Gestionnaire de dépendances :** Maven / Gradle *(à ajuster selon ton choix)*
+* **StarUML :** Pour le design des diagrammes
+* **IDE :** VS Code/Eclipse
 * **Versionnage :** Git & GitHub
 
 ---
