@@ -49,13 +49,14 @@ Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par
 ```text
 ├── design/             # Diagrammes UML (Classes, Cas d'utilisation)
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── com/
-│   │           └── bibliotheque/
-│   │               ├── model/       # Classes métiers (Document, Utilisateur, etc.)
-│   │               ├── service/     # Logique de gestion (Prêts, Échanges inter-Bibiothèques)
-│   │               └── App.java     # Point d'entrée de l'application
-│   └── test/                        # Tests unitaires
-├── README.md
-└── pom.xml             # Si utilisation de Maven
+│   └── models/
+│       ├── Bibliotheque/          # Classe Bibliotheque
+│       ├── Document/              # Classe Document
+│       ├── Emprunt/               # Classe Emprunt
+│       ├── Main/                  # Classe Main
+│       ├── PartenaireBibliotheque/                # Classe Bibliothèque partenaire 
+│       ├── TypeDocument/          # Classe Type de Document (Physique, électroniques, audios ou vidéos)
+│       ├── TypeUtilisateur        # Classe Type d'Utilisateur (Redacteur, simples, Administrateur)
+│       └──  Utilisateur/          # Classe Utilisateur
+│                          
+└── README.md
