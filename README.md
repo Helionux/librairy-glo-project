@@ -29,7 +29,7 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 * **Suivi des Emprunts :** Gestion automatisée des dates limites, des prolongations et des alertes de retard.
 
 ---
-
+********
 ## 🛠️ Architecture et Conception (UML)
 
 Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par des diagrammes UML.
