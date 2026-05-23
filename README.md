@@ -18,7 +18,7 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 | **DJEKORNONMADJI DAINTAR THALES** | Equipe d'intégration  | [@Pseudo8](https://github.com/...) | 24A587FS |
 | **Djegolbe Djimassal Rodrigue** | Equipe d'intégration | [@Pseudo9](https://github.com/...) | 23B451FS |
 | **NGANJOUONG PATRIK** | Equipe d'intégration  | [@Pseudo10](https://github.com/...) | 24B135FS |
-
+| **Alladoum Medergue kertemar** | Equipe d'intégration  | [@mederguealdo-maker](https://github.com/...) | 23A095FS |
 ---
 
 ## 🚀 Fonctionnalités Principales
