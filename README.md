@@ -13,7 +13,7 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 | **Masrabé Naradé Urbain** | Equipe d'intégration  | [@Pseudo3](https://github.com/...) | 24A842FS |
 | **SORE HAMADOU BRONDON** | Equipe d'intégration  | [@Pseudo4](https://github.com/...) | 24B207FS |
 | **Namoné Eben-ezer** | Equipe d'intégration  | [@Pseudo5](https://github.com/...) | 24A982FS |
-| **KOUMLA MAHAMAT** | Equipe d'intégration | [@Pseudo6](https://github.com/...) | 23A245FS |
+| **KOUMLA MAHAMAT** | Equipe d'intégration | [@koumla123](https://github.com/...) | 23A245FS |
 | **TOGLE-ALLAH BÉNÉDICTION** | Equipe d'intégration  | [@Pseudo7](https://github.com/...) | 23A229FS |
 | **DJEKORNONMADJI DAINTAR THALES** | Equipe d'intégration  | [@Pseudo8](https://github.com/...) | 24A587FS |
 | **Djegolbe Djimassal Rodrigue** | Equipe d'intégration | [@Pseudo9](https://github.com/...) | 23B451FS |
