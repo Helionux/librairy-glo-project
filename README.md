@@ -9,7 +9,7 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 | Nom & Prénom | Rôle / Responsabilité | GitHub | Matricule |
 | :--- | :--- | :--- | :--- |
 | **Deoule-Allah Madjitoloum Heliodore** | Equipe d'intégration  | [@Helionux](https://github.com/helionux) | 23A366FS |
-| **Dingammadji Barthélémy** | Equipe d'intégration  | [@Pseudo2](https://github.com/...) | 24A816FS |
+| **Dingammadji Barthélémy** | Equipe d'intégration  | [@Barthélémy](https://github.com/...) | 24A816FS |
 | **Masrabé Naradé Urbain** | Equipe d'intégration  | [@Pseudo3](https://github.com/...) | 24A842FS |
 | **SORE HAMADOU BRONDON** | Equipe d'intégration  | [@Pseudo4](https://github.com/...) | 24B207FS |
 | **Namoné Eben-ezer** | Equipe d'intégration  | [@Pseudo5](https://github.com/...) | 24A982FS |
