@@ -1,25 +1,12 @@
 package models;
 
-import java.util.Date;
-
 public class Emprunt {
 
     private int idEmprunt;
-    private Date dateEmprunt;
-    private Date dateRetourPrevue;
-    private Date dateRetourReelle;
+    private String dateEmprunt;
+    private String dateRetour;
 
-    // ASSOCIATIONS
     private Utilisateur utilisateur;
     private Document document;
 
-    public Emprunt(
-            int idEmprunt,
-            Utilisateur utilisateur,
-            Document document) {
-
-        this.idEmprunt = idEmprunt;
-        this.utilisateur = utilisateur;
-        this.document = document;
-    }
 }

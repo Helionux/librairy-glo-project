@@ -1,38 +1,15 @@
 ghupackage models;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Bibliotheque {
 
+    private int idBibliotheque;
     private String nom;
+    private String adresse;
 
-    private List<Document> documents =
-            new ArrayList<>();
+    private Document documents;
+    private Utilisateur utilisateurs;
+    private Emprunt emprunts;
+    private Reservation reservations;
+    private BibliothequePartenaire partenaires;
 
-    private List<Utilisateur>
-            utilisateurs =
-            new ArrayList<>();
-
-    private List<Bibliotheque>
-            partenaires =
-            new ArrayList<>();
-
-    public Bibliotheque(
-            String nom) {
-
-        this.nom = nom;
-    }
-
-    public void ajouterDocument(
-            Document d) {
-
-        documents.add(d);
-    }
-
-    public void ajouterPartenaire(
-            Bibliotheque b) {
-
-        partenaires.add(b);
-    }
 }
