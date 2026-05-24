@@ -1,0 +1,17 @@
+
+Les differentes sont : 
+
+--- Utilisateurs
+        --- idUtilisateur
+        --- nom
+        --- prenom
+        --- telephone
+        --- email 
+        ---
+
+
+- Bibliotheque
+- Documents
+- Emprunter
+- Partenaires
+- Commande
