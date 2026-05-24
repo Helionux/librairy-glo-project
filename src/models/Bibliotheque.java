@@ -1,3 +1,5 @@
+package models;
+
 public class Bibliotheque {
 
     private int idBibliotheque;

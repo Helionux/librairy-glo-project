@@ -1,3 +1,5 @@
+package models;
+
 public class Document {
 
     private String documentId;
