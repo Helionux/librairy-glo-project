@@ -1,4 +1,7 @@
 public enum TypeUtilisateur {
+    
+}
+
 
     ADMINISTRATEUR,
     REDACTEUR,

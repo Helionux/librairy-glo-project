@@ -9,16 +9,16 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 | Nom & Prénom | Rôle / Responsabilité | GitHub | Matricule |
 | :--- | :--- | :--- | :--- |
 | **Deoule-Allah Madjitoloum Heliodore** | Equipe d'intégration  | [@Helionux](https://github.com/helionux) | 23A366FS |
-| **Dingammadji Barthélémy** | Equipe d'intégration  | [@Barthélémy](https://github.com/...) | 24A816FS |
-| **Masrabé Naradé Urbain** | Equipe d'intégration  | [@Pseudo3](https://github.com/...) | 24A842FS |
+| **Dingammadji Barthélémy** | Equipe d'intégration  | [@Pseudo2](https://github.com/...) | 24A816FS |
+| **Masrabé Naradé Urbain** | Equipe d'intégration  | [urbain](https://github.com/urbain masrabe) | 24A842FS |
 | **SORE HAMADOU BRONDON** | Equipe d'intégration  | [@Pseudo4](https://github.com/...) | 24B207FS |
 | **Namoné Eben-ezer** | Equipe d'intégration  | [@Pseudo5](https://github.com/...) | 24A982FS |
-| **KOUMLA MAHAMAT** | Equipe d'intégration | [@koumla123](https://github.com/...) | 23A245FS |
+| **KOUMLA MAHAMAT** | Equipe d'intégration | [@Pseudo6](https://github.com/...) | 23A245FS |
 | **TOGLE-ALLAH BÉNÉDICTION** | Equipe d'intégration  | [@Pseudo7](https://github.com/...) | 23A229FS |
 | **DJEKORNONMADJI DAINTAR THALES** | Equipe d'intégration  | [@masraprofesseur-del](https://github.com/...) | 24A587FS |
 | **Djegolbe Djimassal Rodrigue** | Equipe d'intégration | [@Rodriguedjg](https://github.com/rodriguedjg) | 23B451FS |
 | **NGANJOUONG PATRIK** | Equipe d'intégration  | [@Pseudo10](https://github.com/...) | 24B135FS |
-| **Alladoum Medergue kertemar** | Equipe d'intégration  | [@mederguealdo-maker](https://github.com/...) | 23A095FS |
+
 ---
 
 ## 🚀 Fonctionnalités Principales
@@ -29,7 +29,7 @@ Ce projet a pour objectif de concevoir et de développer un système informatiqu
 * **Suivi des Emprunts :** Gestion automatisée des dates limites, des prolongations et des alertes de retard.
 
 ---
-********
+
 ## 🛠️ Architecture et Conception (UML)
 
 Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par des diagrammes UML.
