@@ -1,0 +1,70 @@
+1. Classe Utilisateur
+userId : String {id, unique}
+nom : String
+prenom : String
+adresse : String
+contact : String
+role : RoleUtilisateu
+
+Enum RoleUtilisateur
+SIMPLE
+ADMINISTRATEUR
+REDACTEUR
+
+Classe Prêt
+pretId : String {id, unique}
+dateEmprunt : Date
+dateRetourPrevu : Date
+dateRetourReel : Date
+
+
+Classe Réservation
+id : UUID
+dateReservation : Date
+statut : StatutReservation
+
+Enum StatutReservation
+EN_COURS
+REJETER
+VALIDER
+
+ Classe Document
+documentId : String {id, unique}
+titre : String
+type : TypeDocument
+auteur : String
+isbn : String
+disponible : Boolean
+
+ Enum TypeDocument
+PHYSIQUE
+ELECTRONIQUE
+VIDEO
+AUDIO
+
+ Classe ÉchangeDocument
+id : UUID
+dateDemande : Date
+dateValidation : Date
+statut : (statut d’échange)
+
+
+ Classe Bibliothèque
+bibliothequeId : String {id, unique}
+nom : String {unique}
+adresse : String
+contact : String
+
+
+ Classe Partenaire
+partenaireId : String {id, unique}
+nom : String {unique}
+adresse : String
+contact : String
+type : TypePartenaire
+
+ Enum TypePartenaire
+UNIVERSITE
+LIBRAIRIE
+ASSOCIATION
+
