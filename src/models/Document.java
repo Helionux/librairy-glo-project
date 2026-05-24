@@ -9,6 +9,7 @@ public class Document {
     private TypeDocument type;
     private String auteur;
     private String isbn;
+    private String isbn1;
     private boolean disponible;
 
     public Document() {
