@@ -1,5 +1,8 @@
-package models;
+public class BibliothequePartenaire {
 
-public class PartenaireBibliotheque {
-    
+    private int idPartenaire;
+    private String nom;
+    private String adresse;
+    private String telephone;
+
 }
