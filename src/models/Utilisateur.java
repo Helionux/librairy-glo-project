@@ -1,57 +1,75 @@
 package models;
 
-import java.util.ArrayList;
-import java.util.List;
+import models.enums.RoleUtilisateur;
 
-import models.Interfaces.Authentifiable;
+public class Utilisateur {
 
-public abstract class Utilisateur
-        implements Authentifiable {
-
-    private int id;
+    private String userId;
     private String nom;
-    private String email;
-    private String motDePasse;
+    private String prenom;
+    private String adresse;
+    private String contact;
+    private RoleUtilisateur role;
 
-    // ASSOCIATIONS
-    private List<Emprunt> emprunts =
-            new ArrayList<>();
+    public Utilisateur() {
+    }
 
-    private List<Commande> commandes =
-            new ArrayList<>();
-
-    public Utilisateur(
-            int id,
-            String nom,
-            String email,
-            String motDePasse) {
-
-        this.id = id;
+    public Utilisateur(String userId, String nom, String prenom,
+                       String adresse, String contact,
+                       RoleUtilisateur role) {
+        this.userId = userId;
         this.nom = nom;
-        this.email = email;
-        this.motDePasse =
-                motDePasse;
+        this.prenom = prenom;
+        this.adresse = adresse;
+        this.contact = contact;
+        this.role = role;
     }
 
-    @Override
-    public boolean seConnecter(
-            String email,
-            String mdp) {
-
-        return this.email.equals(email)
-                && this.motDePasse.equals(mdp);
+    public String getUserId() {
+        return userId;
     }
 
-    public abstract void afficherRole();
-
-    public void ajouterEmprunt(
-            Emprunt e) {
-
-        emprunts.add(e);
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
-    @Override
     public String getNom() {
         return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public RoleUtilisateur getRole() {
+        return role;
+    }
+
+    public void setRole(RoleUtilisateur role) {
+        this.role = role;
     }
 }

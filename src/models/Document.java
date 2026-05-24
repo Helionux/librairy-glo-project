@@ -1,55 +1,79 @@
 package models;
 
-import java.util.Date;
+import models.enums.TypeDocument;
 
-import models.Interfaces.Commandable;
-import models.Interfaces.Consultable;
+public class Document {
 
-public abstract class Document
-        implements Consultable, Commandable {
-
-    private int id;
+    private String documentId;
     private String titre;
+    private TypeDocument type;
     private String auteur;
-    private Date datePublication;
+    private String isbn;
     private boolean disponible;
 
-    public Document(
-            int id,
-            String titre,
-            String auteur,
-            Date datePublication) {
+    public Document() {
+    }
 
-        this.id = id;
+    public Document(String documentId,
+                    String titre,
+                    TypeDocument type,
+                    String auteur,
+                    String isbn,
+                    boolean disponible) {
+
+        this.documentId = documentId;
         this.titre = titre;
+        this.type = type;
         this.auteur = auteur;
-        this.datePublication =
-                datePublication;
-
-        this.disponible = true;
+        this.isbn = isbn;
+        this.disponible = disponible;
     }
 
-    @Override
-    public void consulter() {
-        System.out.println(
-                "Consultation de "
-                        + titre);
+    public String getDocumentId() {
+        return documentId;
     }
 
-    @Override
-    public void commander() {
-        System.out.println(
-                "Commande du document "
-                        + titre);
+    public void setDocumentId(String documentId) {
+        this.documentId = documentId;
     }
-
-    public abstract void afficherType();
 
     public String getTitre() {
         return titre;
     }
 
-    public void afficherInformations() {
-        System.out.println(titre);
-    };
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public TypeDocument getType() {
+        return type;
+    }
+
+    public void setType(TypeDocument type) {
+        this.type = type;
+    }
+
+    public String getAuteur() {
+        return auteur;
+    }
+
+    public void setAuteur(String auteur) {
+        this.auteur = auteur;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public boolean isDisponible() {
+        return disponible;
+    }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
 }
