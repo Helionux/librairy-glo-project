@@ -2,23 +2,21 @@ package models;
 
 import java.util.Date;
 
-public class Emprunt {
+public class Commande {
 
-    private int idEmprunt;
-    private Date dateEmprunt;
-    private Date dateRetourPrevue;
-    private Date dateRetourReelle;
+    private int idCommande;
+    private Date dateCommande;
+    private String etatCommande;
 
-    // ASSOCIATIONS
     private Utilisateur utilisateur;
     private Document document;
 
-    public Emprunt(
-            int idEmprunt,
+    public Commande(
+            int idCommande,
             Utilisateur utilisateur,
             Document document) {
 
-        this.idEmprunt = idEmprunt;
+        this.idCommande = idCommande;
         this.utilisateur = utilisateur;
         this.document = document;
     }
