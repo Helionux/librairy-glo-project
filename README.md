@@ -60,14 +60,18 @@ Le projet s'appuie sur une conception orientée objet rigoureuse formalisée par
 ```text
 ├── design/             # Diagrammes UML (Classes, Cas d'utilisation)
 ├── src/
-│   └── models/
-│       ├── Bibliotheque/          # Classe Bibliotheque
-│       ├── Document/              # Classe Document
-│       ├── Emprunt/               # Classe Emprunt
-│       ├── Main/                  # Classe Main
-│       ├── PartenaireBibliotheque/                # Classe Bibliothèque partenaire 
-│       ├── TypeDocument/          # Classe Type de Document (Physique, électroniques, audios ou vidéos)
-│       ├── TypeUtilisateur        # Classe Type d'Utilisateur (Redacteur, simples, Administrateur)
-│       └──  Utilisateur/          # Classe Utilisateur
+│   ├── Classes/
+│   └── models/                 
+│       ├── enums/             # dossier enums
+│       ├── Bibliotheque/      # Classe Bibliotheque
+│       ├── Document/          # Classe Document
+│       ├── Pret/              # Classe Pret
+│       ├── Main/              # Classe Main
+│       ├── EchangeDocument/   # Classe EchangeDocument 
+│       ├── Partenaire/        # Classe Partenaire
+│       ├── TypeUtilisateur    # Classe TypeUtilisateur
+│       ├── StatutReservation  # Classe StatutReservation
+│       ├── Reservation        # Classe Reservation
+│       └── Utilisateur/       # Classe Utilisateur 
 │                          
 └── README.md
