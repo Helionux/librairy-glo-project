@@ -1,6 +1,4 @@
-package models;
-
-import models.enums.RoleUtilisateur;
+import enums.RoleUtilisateur;
 
 public class Utilisateur {
 
@@ -16,7 +14,7 @@ public class Utilisateur {
 
     public Utilisateur(String userId, String nom, String prenom,
                        String adresse, String contact,
-                       RoleUtilisateur role) {
+                       enums.RoleUtilisateur role) {
         this.userId = userId;
         this.nom = nom;
         this.prenom = prenom;

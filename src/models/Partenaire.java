@@ -1,6 +1,4 @@
-package models;
-
-import models.enums.TypePartenaire;
+import enums.TypePartenaire;
 
 public class Partenaire {
 

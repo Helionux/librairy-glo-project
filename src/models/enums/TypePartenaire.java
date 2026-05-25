@@ -1,4 +1,4 @@
-package models.enums;
+package enums;
 public enum TypePartenaire {
     UNIVERSITE,
     LIBRAIRIE,

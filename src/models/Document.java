@@ -1,6 +1,4 @@
-package models;
 
-import models.enums.TypeDocument;
 
 public class Document {
 
