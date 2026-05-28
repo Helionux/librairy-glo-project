@@ -1,5 +1,12 @@
-package models;
+public class bibliotheque{
+    private int idbibliothe;
+    private int string nom;
+    private int adresse;
 
-public class Bibliotheque {
+    private document document;
+    private
+
+
+
     
 }
