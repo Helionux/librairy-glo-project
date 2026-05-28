@@ -42,9 +42,7 @@ public class Bibliotheque {
         documents.remove(document);
     }
 
-    // ==========================
-    // Gestion des partenaires
-    // ==========================
+    
 
     public void ajouterPartenaire(Partenaire partenaire) {
         partenaires.add(partenaire);
@@ -54,9 +52,7 @@ public class Bibliotheque {
         partenaires.remove(partenaire);
     }
 
-    // ==========================
-    // Getters / Setters
-    // ==========================
+    
 
     public String getBibliothequeId() {
         return bibliothequeId;
